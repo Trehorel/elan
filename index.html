@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Élan – Le sport, en mouvement</title>
+  <meta name="description" content="Élan présente les sports, leurs bienfaits et des séances types pour bouger mieux, à tout niveau.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="top">
+    <div class="wrap">
+      <a class="logo" href="#top">Élan</a>
+      <nav aria-label="Navigation principale">
+        <a href="#sports">Sports</a>
+        <a href="#pourquoi">Pourquoi bouger</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap hero">
+      <div>
+        <h1>
+          <span>Le sport,</span>
+          <span>c’est avancer</span>
+          <span>d’un pas de plus.</span>
+        </h1>
+        <p>Cinq disciplines, des séances types et des repères simples pour bouger mieux, quel que soit votre niveau.</p>
+        <a class="btn" href="#sports">Choisir mon sport</a>
+      </div>
+
+      <svg class="track" viewBox="0 0 440 340" role="img" aria-label="Piste d’athlétisme avec trois coureurs qui bouclent un tour">
+        <path class="lane" d="M120 40H320A130 130 0 0 1 320 300H120A130 130 0 0 1 120 40Z"/>
+        <path class="lane" d="M120 72H320A98 98 0 0 1 320 268H120A98 98 0 0 1 120 72Z"/>
+        <path class="lane" d="M120 104H320A66 66 0 0 1 320 236H120A66 66 0 0 1 120 104Z"/>
+        <path class="run" style="stroke:var(--blue);--len:1012;--gap:952;--t:5s" d="M120 40H320A130 130 0 0 1 320 300H120A130 130 0 0 1 120 40Z"/>
+        <path class="run" style="stroke:var(--sun);--len:884;--gap:824;--t:4.2s" d="M120 72H320A98 98 0 0 1 320 268H120A98 98 0 0 1 120 72Z"/>
+        <path class="run" style="stroke:var(--ink);--len:755;--gap:695;--t:3.6s" d="M120 104H320A66 66 0 0 1 320 236H120A66 66 0 0 1 120 104Z"/>
+      </svg>
+    </div>
+
+    <section id="sports">
+      <div class="wrap">
+        <h2>Un sport pour chaque envie.</h2>
+        <p class="lead">Sélectionnez une discipline pour voir ce qu’elle apporte et une séance simple pour commencer.</p>
+        <div class="tabs" role="tablist" aria-label="Sports"></div>
+        <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="pourquoi">
+      <div class="wrap">
+        <h2>Bouger change tout.</h2>
+        <p class="lead">Trente minutes d’activité modérée, quelques fois par semaine, suffisent pour sentir la différence.</p>
+        <div class="cols">
+          <div>
+            <h3>Plus d’énergie</h3>
+            <p>L’endurance progresse vite : monter les escaliers ou finir la journée devient plus facile en quelques semaines.</p>
+          </div>
+          <div>
+            <h3>Esprit plus léger</h3>
+            <p>L’effort aide à décrocher du quotidien et améliore le sommeil, surtout en extérieur.</p>
+          </div>
+          <div>
+            <h3>Régularité avant tout</h3>
+            <p>Mieux vaut trois séances courtes chaque semaine qu’une grosse séance de temps en temps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="cta">
+          <h2>Prêt à démarrer cette semaine ?</h2>
+          <p>Choisissez un sport, bloquez un créneau de 30 minutes et lancez-vous.</p>
+          <a class="btn" href="#sports">Voir les séances</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © 2026 Élan. Les conseils sont donnés à titre informatif : en cas de doute, demandez l’avis d’un médecin avant de reprendre une activité.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
