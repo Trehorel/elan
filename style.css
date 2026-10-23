@@ -319,6 +319,31 @@ h2 {
   display: block;
 }
 
+/* ---------- Sélecteur de niveau ---------- */
+.lvls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1.2rem;
+}
+
+.lvls button {
+  font: 600 0.85rem Figtree, sans-serif;
+  background: transparent;
+  color: var(--ink);
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.lvls button[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--bg);
+}
+
 /* ---------- Colonnes « Pourquoi bouger » ---------- */
 .cols {
   display: grid;
